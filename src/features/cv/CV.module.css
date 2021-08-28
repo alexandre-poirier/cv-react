@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.firstName {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.lastName {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.leftSection {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0.25em 0 0.25em;
+    border-right: grey;
+    font-size: 1em;
+}
+
+.rightSection {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.25em;
+}
+
+.titleRibbon {
+    background-color: darkblue;
+    color: white;
+    width: 100%;
+    padding: 0.25em 0;
+    margin: 0.5em 0;
+    border-radius: 0.25em;
+    box-shadow: 0.2em 0.2em 0.1em grey;
+}
+
+.content {
+    font-size: 0.6em;
+    font-weight: 500;
+}
+
+.contentBreak {
+    font-size: 0.5em;
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.contentTitle {
+    font-size: 0.6em;
+    font-weight: 900;
+}
+
+.italicTitle {
+    font-size: 0.5em;
+    font-style: italic;
+}
+
+.ratedContentContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 100%;
+}
+
+.ratedContentContainerWithTopSpacing {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 500;
+    width: 100%;
+    margin-top: 0.5em;
+}
+
+.contentLeftSectionRating {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.smallContent {
+    font-size: 0.5em;
+    text-align: start;
+}
+
+.smallContentPadded {
+    padding: 1em;
+    font-size: 0.5em;
+    text-align: start;
+}
+
+.titleSeparators {
+    font-size: 0.75em;
+    font-weight: bold;
+    align-self: center;
+    width: 100%;
+    margin: 0.75em 0 0.5em 0;
+    color: darkblue;
+}
+
+.rightTable {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+}
+
+.rightTableRow {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    width: 100%;
+    text-align: start;
+    margin-bottom: 0.25em;
+}
+
+.leftColumn {
+    width: 15%;
+    padding: 0 0.5em 0 0.5em;
+    border-style: hidden solid hidden hidden;
+    border-color: grey;
+    font-size: 0.5em;
+}
+
+.rightColumn {
+    width: 85%;
+    padding: 0 0.5em 0 0.5em;
+}
